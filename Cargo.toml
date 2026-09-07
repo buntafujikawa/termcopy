@@ -1,0 +1,15 @@
+[package]
+name = "termcopy"
+version = "0.2.0"
+edition = "2024"
+description = "Restore Codex TUI terminal selections to their logical source text"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0.104"
+arboard = { version = "3.6.1", default-features = false }
+clap = { version = "4.6.6", features = ["derive"] }
+memchr = "2.8.3"
+serde = { version = "1.0.229", features = ["derive"] }
+serde_json = "1.0.151"
+unicode-segmentation = "1.13.3"
